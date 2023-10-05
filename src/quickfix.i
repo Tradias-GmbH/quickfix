@@ -14,6 +14,7 @@
 %include std_set.i
 
 %feature("director") FIX::Application;
+%feature("director") FIX::LogFactory;
 %feature("classic") FIX::Exception;
 
 %array_class(int, IntArray);
