@@ -14,10 +14,6 @@
 %include std_set.i
 
 %feature("director") FIX::Application;
-%feature("director") FIX::LogFactory;
-%feature("director") FIX::Log;
-%feature("director") FIX::LogFactory;
-%feature("director") FIX::Log;
 %feature("classic") FIX::Exception;
 %feature("director") FIX::LogFactory;
 %feature("director") FIX::Log;
