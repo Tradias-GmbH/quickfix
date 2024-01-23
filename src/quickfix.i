@@ -15,7 +15,6 @@
 
 %feature("director") FIX::Application;
 %feature("director") FIX::LogFactory;
-%feature("director") FIX::Log;
 %feature("classic") FIX::Exception;
 
 %array_class(int, IntArray);
